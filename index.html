@@ -5,94 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landscape Together</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="/output.css" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper" class="relative min-h-screen bg-black">
-        <div id="side-menu" class="absolute z-10 flex flex-col items-center w-[5%] min-h-screen h-full right-0 top-0 bg-gray-400 ">
-            <div class="flex flex-col justify-evenly items-center bg-white w-[90%] h-40 text-yellow-500 text-base font-bold">
-                <p>ENG</p>
-                <p>PT</p>
-                <p>FR</p>
-            </div>
-        </div>
-        <header class="relative w-full text-yellow-500">
-            <div id="header" class="w-[95%] bg-white">
-                <div class="flex flex-row justify-between items-center pr-5 pl-3">
-                    <h2 class="text-[16px] font-bold m-1">LANDSCAPE <br/>TOGETHER</h2>
-                    <div class="flex flex-row">
-                        <div class="flex flex-col justify-center items-center">
+        <header>
+            <div class="w-full bg-white text-primary select-none">
+                <div class="flex flex-row justify-between items-center p-1">
+                    <h2 class="text-xs font-jose-600 grow basis-0 ml-1">LANDSCAPE <br/>TOGETHER</h2>
+                    <object data="images/header-icn.svg" type="image/svg+xml" class="w-20"></object>
+                    <div class="grow basis-0">
+                        <div id="menu-btn" class="relative flex flex-col justify-center items-center grow basis-0 float-right mr-3">
                             <div class="dropdown-menu-rectangle"></div>
                             <div class="dropdown-menu-rectangle"></div>
                             <div class="dropdown-menu-rectangle"></div>
+                            <div id="menu-div" class="z-10 absolute top-10 hidden flex-col justify-between">
+                                <div class="dropdown-menu-items">PT</div>
+                                <div class="dropdown-menu-items">FR</div>
+                                <div class="dropdown-menu-items">ENG</div>
+                            </div>
                         </div>
-                        <p class="text-[13px] m-2">PT▼</p>
                     </div>
                 </div>
             </div>
         </header>
-        <main class="pb-60">
+        <main class="pb-52">
             <div id="main" class="relative ">
-                <object class="absolute top-0 left-0 w-28 m-3" data="images/T&P-Logo-Consulting.png" type=""></object>
-                <div id="main-top-part" class=" flex flex-row mb-40">
-                    <div class="w-[60%]">
-                        <img class="w-3/4 float-right" src="images/Screenshot.png" alt="">
+                <object class="absolute top-0 left-0 w-28 m-2" data="images/partners/eu.svg" type=""></object>
+                <div id="main-top-part" class="relative">
+                    <img src="images/background-image.png" alt="">
+                    <div class="absolute bottom-10 right-4 text-white font-jose-700 text-xs flex flex-col justify-center p-2">LANDSCAPE TOGETHER <br/>is a Creative Europe culture <br/>programme co-funded by the <br/>European Union.</div>
+                    <div class="absolute right-1 flex flex-row">
+                        <a href="#">
+                            <object data="images/instagram-icn.svg" type="image/svg+xml" class="w-6"></object>
+                        </a>
+                        <a href="#">
+                            <object data="images/facebook-icn.svg" type="image/svg+xml" class="w-6 mx-2"></object>
+                        </a>
                     </div>
-                    <div class="w-[40%] text-white text-3xl flex flex-col justify-center p-2 pt-40">LANDSCAPE TOGETHER<br/>is a cultutral program</div>
                 </div>
-                <div id="main-bottom-part" class="relative">
-                    <div class="absolute top-0 right-[90px] flex flex-row">
-                        <object class="w-9" data="images/LinkedIn.png" type=""></object>
-                        <object class="w-9 mx-3" data="images/Facebook.png" type=""></object>
-                    </div>
-                    <div class="flex flex-col justify-around items-center w-[88%] my-6">
-                        <h6 class="text-base text-white">fund</h6>
-                        <div class="flex flex-row justify-center m-6">
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
+                <div id="main-bottom-part" class="">
+                    <div class="flex flex-col justify-center items-center my-20">
+                        <div class="flex flex-row justify-center m-2">
+                            <object class="w-11 m-2" data="images/partners/mag.svg" type="image/svg+xml"></object>
+                            <object class="w-36 m-2" data="images/partners/eu.svg" type="image/svg+xml"></object>
                         </div>
-                        <h6 class="text-base text-white">coordinator</h6>
-                        <div class="flex flex-row justify-center m-6">
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
+                        <div class="flex flex-row justify-center m-2">
+                            <object class="w-32 m-2" data="images/partners/chillida.svg" type="image/svg+xml"></object>
+                            <object class="w-11 m-2" data="images/partners/ipcb.svg" type="image/svg+xml"></object>
+                            <object class="w-11 m-2" data="images/partners/khbt.svg" type="image/svg+xml"></object>                            
                         </div>
-                        <h6 class="text-base text-white">partners</h6>
-                        <div class="flex flex-row justify-center m-6">
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
+                        <div class="flex flex-row justify-center m-2">
+                            <object class="w-24 m-2" data="images/partners/politecnico-milano.svg" type="image/svg+xml"></object>
+                            <object class="w-16 m-2" data="images/partners/T&P.svg" type="image/svg+xml"></object>
+                            <object class="w-16 m-2" data="images/partners/turismo-centro-portugal.svg" type="image/svg+xml"></object>
                         </div>
-                        <h6 class="text-base text-white">beneficiaries</h6>
-                        <div class="flex flex-row justify-center m-6">
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
+                        <div class="flex flex-row justify-center m-2">
+                            <object class="w-16 m-2" data="images/partners/u-porto.svg" type="image/svg+xml"></object>
+                            <object class="w-11 m-2" data="images/partners/yok.svg" type="image/svg+xml"></object>
+                            <object class="w-16 m-2" data="images/partners/municipio-idanha.svg" type="image/svg+xml"></object>
+                            <object class="w-16 m-2" data="images/partners/oleiros.svg" type="image/svg+xml"></object>
                         </div>
-                        <h6 class="text-base text-white">affiliated</h6>
-                        <div class="flex flex-row justify-center m-6">
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
+                        <div class="flex flex-row justify-center m-2">
+                            <object class="w-24 m-2" data="images/partners/pedrogao.svg" type="image/svg+xml"></object>
+                            <object class="w-14 m-2" data="images/partners/municipio-proenca.svg" type="image/svg+xml"></object>
+                            <object class="w-20 m-2" data="images/partners/serta-municipio.svg" type="image/svg+xml"></object>
                         </div>
-                        <h6 class="text-base text-white">associated</h6>
-                        <div class="flex flex-row justify-center m-6">
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
-                            <object class="w-28" data="images/T&P-Logo-Consulting.png" type=""></object>
+                        <div class="flex flex-row justify-center m-2">
+                            <object class="w-16 m-2" data="images/partners/republica-portoguesa.svg" type="image/svg+xml"></object>
+                            <object class="w-16 m-2" data="images/partners/berlin-intenational.svg" type="image/svg+xml"></object>
+                            <object class="w-32 m-2" data="images/partners/experimenta-paisagem.svg" type="image/svg+xml"></object>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-        <footer class="absolute bottom-0 left-0 w-[88%] h-60">
-            <div class="flex flex-col justify-center items-center h-full mx-10 bg-black border-t-2 border-dotted border-yellow-500 text-center text-white text-base leading-8">
-                <p class="m-[2px]  font-bold">Contacts</p>
-                <p class="m-[2px] ">mag@magarquitectura.pt</p>
-                <p class="m-[2px] ">+31 224 901 265</p>
-                <p class="m-[2px] ">Rua Raúl Brandao, n° 81,<br/>4150-631 Porto, PORTUGAL</p>
+        <footer class="absolute bottom-0 left-0 w-full h-52">
+            <div class="flex flex-col justify-center items-center h-full mx-8 bg-black border-t-2 border-dotted border-primary text-center text-white text-sm leading-6">
+                <p class="m-[2px] font-jose-600">Contacts</p>
+                <p class="m-[2px] font-jose-400">mag@magarquitectura.pt <br/>+31 224 901 265</p>
+                <p class="m-[2px] font-jose-400">Rua Raúl Brandao, n° 81,<br/>4150-631 Porto, PORTUGAL</p>
             </div>
         </footer>
         
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
