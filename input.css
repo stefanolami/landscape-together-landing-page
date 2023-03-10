@@ -5,7 +5,7 @@
 @layer components {
 
     .dropdown-menu-rectangle {
-        @apply bg-yellow-500 w-4 h-[3px] rounded-sm m-[1px]
+        @apply bg-yellow-500 w-8 h-[4px] rounded-sm m-[2px]
     }
 
 }
