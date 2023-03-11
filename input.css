@@ -9,7 +9,7 @@
     }
 
     .dropdown-menu-items {
-        @apply w-full h-1/3 bg-white/[.5] font-jose-400 text-[9px] md:text-sm xl:text-base text-center py-1 px-3 md:px-4 xl:px-5 mb-1
+        @apply w-full h-1/3 bg-grey font-jose-400 text-[9px] md:text-sm xl:text-base text-center py-1 px-3 md:px-4 xl:px-5 mb-1
     }
 
 }
