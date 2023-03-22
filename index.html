@@ -18,14 +18,14 @@
                     <h2 class="text-xs md:text-sm xl:text-lg font-jose-600 grow basis-0 ml-1 xl:leading-5">LANDSCAPE <br/>TOGETHER</h2>
                     <img src="images/header-icn.svg" alt="Landscape Together Icon" class="w-20 md:w-24 xl:w-32">
                     <div class="grow basis-0">
-                        <div id="menu-btn" class="relative flex flex-col justify-center items-center grow basis-0 float-right mr-3 md:mr-5">
+                        <div id="menu-btn" class="relative flex flex-col justify-center items-center grow basis-0 float-right mr-3 md:mr-5 cursor-pointer">
                             <div class="dropdown-menu-rectangle"></div>
                             <div class="dropdown-menu-rectangle"></div>
                             <div class="dropdown-menu-rectangle"></div>
-                            <div id="menu-div" class="z-10 absolute top-10 md:top-12 xl:top-16 hidden flex-col justify-between">
-                                <div class="dropdown-menu-items">PT</div>
-                                <div class="dropdown-menu-items">FR</div>
-                                <div class="dropdown-menu-items">ENG</div>
+                            <div id="menu-div" class="absolute top-10 md:top-12 xl:top-16 hidden flex-col justify-between">
+                                <div id="pt-btn" class="dropdown-menu-items z-50">PT</div>
+                                <div id="fr-btn" class="dropdown-menu-items z-50">FR</div>
+                                <div id="en-btn" class="dropdown-menu-items z-50">ENG</div>
                             </div>
                         </div>
                     </div>
@@ -35,12 +35,16 @@
         <main class="pb-52 md:pb-60 xl:pb-80">
             <div id="main" class="relative ">
                 <img class="absolute left-0 xl:left-3 xl:top-3 z-10 w-28 md:w-44 xl:w-56 m-2" src="images/partners/eu.svg" alt="EU logo">
-                <div id="main-top-part" class="relative">
-                    <img src="images/background-image.png" alt="">
-                    <div class="absolute bottom-[25%] right-[5%] md:bottom-[30%] md:right-[10%] xl:bottom-[38%] xl:right-[20%] text-white font-jose-700 text-xs md:text-lg xl:text-2xl 2xl:text-3xl flex flex-col justify-center p-2">LANDSCAPE TOGETHER <br/>is a Creative Europe culture <br/>programme co-funded by the <br/>European Union.</div>
+                <div id="main-top-part" class="">
+                    <div class="w-full relative">
+                        <img class="w-full" src="images/background-image.png" alt="">
+                        <div id="en-div" class="block lang-div z-10 max-w-[60%] md:max-w-[35%] text-white font-jose-700 text-xs md:text-lg xl:text-2xl 2xl:text-3xl absolute bottom-[30%] right-[5%] md:bottom-[35%] md:right-[15%]">LANDSCAPE TOGETHER <br/>is a Creative Europe culture <br/>programme co-funded by the <br/>European Union</div>
+                        <div id="pt-div" class="hidden lang-div z-10 max-w-[60%] md:max-w-[35%] text-white font-jose-700 text-xs md:text-lg xl:text-2xl 2xl:text-3xl absolute bottom-[30%] right-[5%] md:bottom-[35%] md:right-[15%]">LANDSCAPE TOGETHER <br/>é um programa cultural da <br/>Europa Criativa co-financiado <br/>pela União Europeia</div>
+                        <div id="fr-div" class="hidden lang-div z-10 max-w-[60%] md:max-w-[35%] text-white font-jose-700 text-xs md:text-lg xl:text-2xl 2xl:text-3xl absolute bottom-[30%] right-[5%] md:bottom-[35%] md:right-[15%]">LANDSCAPE TOGETHER <br/>est un programme Culturel <br/>Européen co-financé par <br/>l’Union Européene</div>  
+                    </div>
                     <div class="absolute right-1 flex flex-row">
                         <a href="#">
-                            <img src="images/instagram-icn.svg" alt="instagram logo" class="w-6 md:w-8">
+                            <img src="images/instagram-icn.svg" alt="Instagram logo" class="w-6 md:w-8">
                         </a>
                         <a href="#">
                             <img src="images/facebook-icn.svg" alt="Facebook Logo" class="w-6 md:w-8 mx-2 md:mx-3 xl:ml-5 xl:mr-10">
@@ -61,6 +65,7 @@
                         <div class="flex flex-row justify-center m-2">
                             <img class="w-24 m-2" src="images/partners/politecnico-milano.svg" alt="Politecnico di Milano logo">
                             <img class="w-16 m-2" src="images/partners/T&P.svg" alt="Time&Place Consulting logo">
+                            <img class="w-16 m-2" src="images/partners/UC_V_FundoEscuro-branco.png" alt="Universidade Coimbra">
                             <img class="w-16 m-2" src="images/partners/turismo-centro-portugal.svg">
                         </div>
                         <div class="flex flex-row justify-center m-2">
@@ -93,11 +98,12 @@
                             <img class="w-11 xl:w-20 m-2 xl:m-3" src="images/partners/khbt.svg" alt="KHBT logo">
                             <img class="w-24 xl:w-36 m-2 xl:m-3" src="images/partners/politecnico-milano.svg" alt="Politecnico di Milano logo">
                             <img class="w-20 xl:w-32 m-2 xl:m-3" src="images/partners/T&P.svg" alt="Time&Place Consulting logo">
+                            <img class="w-20 xl:w-32 m-2 xl:m-3" src="images/partners/UC_V_FundoEscuro-branco.png" alt="Universidade Coimbra">
                             <img class="w-16 xl:w-24 m-2 xl:m-3" src="images/partners/turismo-centro-portugal.svg">
-                            <img class="w-20 xl:w-28 m-2 xl:m-3" src="images/partners/u-porto.svg" alt="U.Porto logo">
-                            <img class="w-14 xl:w-20 m-2 xl:m-3" src="images/partners/yok.svg" alt="Atelier Yok Yok logo">                  
+                            <img class="w-20 xl:w-28 m-2 xl:m-3" src="images/partners/u-porto.svg" alt="U.Porto logo">                 
                         </div>
                         <div class="flex flex-row justify-center m-3 xl:m-5">
+                            <img class="w-14 xl:w-20 m-2 xl:m-3" src="images/partners/yok.svg" alt="Atelier Yok Yok logo"> 
                             <img class="w-20 xl:w-32 m-2 xl:m-3" src="images/partners/municipio-idanha.svg" alt="Municipio Idanha A Nova logo">
                             <img class="w-20 xl:w-32 m-2 xl:m-3" src="images/partners/oleiros.svg" alt="Municipio de oleiros logo">
                             <img class="w-28 xl:w-40 m-2 xl:m-3" src="images/partners/pedrogao.svg" alt="Pedrogao Grande logo">
@@ -116,7 +122,7 @@
         <footer class="absolute bottom-0 left-0 w-full h-52 md:h-60 xl:h-80">
             <div class="flex flex-col justify-center items-center h-full mx-8 md:mx-16 bg-black border-t-2 border-dotted border-primary text-center text-white text-sm md:text-base xl:text-xl leading-6">
                 <p class="m-[2px] md:m-2 xl:m-4 font-jose-600">Contacts</p>
-                <p class="m-[2px] md:m-2 xl:m-4 font-jose-400">mag@magarquitectura.pt <br/>+31 224 901 265</p>
+                <p class="m-[2px] md:m-2 xl:m-4 font-jose-400">mag@magarquitectura.pt <br/>+351 224 901 265</p>
                 <p class="m-[2px] md:m-2 xl:m-4 font-jose-400">Rua Raúl Brandao, n° 81, <br/>4150-631 Porto, PORTUGAL</p>
             </div>
         </footer>

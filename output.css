@@ -657,6 +657,10 @@ video {
   margin-right: 0.75rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -739,6 +743,10 @@ video {
 
 .basis-0 {
   flex-basis: 0px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .select-none {
