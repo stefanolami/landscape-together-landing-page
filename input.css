@@ -12,6 +12,10 @@
         @apply w-full h-1/3 bg-grey font-jose-400 text-[9px] md:text-sm xl:text-base text-center py-1 px-3 md:px-4 xl:px-5 mb-1
     }
 
+    h6 {
+        @apply font-jose-600 text-white text-xs md:text-base
+    }
+
 }
 
 .font-jose-400 {
@@ -29,3 +33,9 @@
     font-weight: 700;
 }
 
+/* h6 {
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+} */
